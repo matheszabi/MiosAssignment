@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/text_margin"
+    android:paddingRight="@dimen/text_margin"
+    tools:context=".devicedetail.DeviceDetailActivity">
+
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:id="@+id/ivDevice"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="img"
+        app:srcCompat="@drawable/vera_edge_big"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvPKDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_alignTop="@+id/ivDevice"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/ivDevice"
+        android:text="Home Number 1"
+        android:textAppearance="?android:textAppearanceLarge"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/tvSN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivDevice"
+        android:layout_marginTop="10dp"
+        android:text="SN: 466123456"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvMAC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSN"
+        android:text="MAC Address: E2:E4..."
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/tvFirmware"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMAC"
+        android:layout_marginTop="13dp"
+        android:text="Firmware: 1.7.324343"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvModel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFirmware"
+        android:layout_marginTop="3dp"
+        android:text="Firmware: Vera Edge"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Test Application</string>
+    <string name="tvMe">Matheszabi</string>
+    <string name="lvEmpty">List of items empty now\nClick to refresh</string>
+</resources>
