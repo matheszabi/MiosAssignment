@@ -51,3 +51,10 @@ In the letter the assignment it is:
 
 > You have 2h 30m to solve. In the first 30 m you can ask me anything about the requirements. At the end of the time I want to receive an archive with the written code.
 
+The list it is:
+
+![alt tag](https://github.com/matheszabi/MiosAssignment/blob/master/screenshots/loaded2.png)
+
+The detail it is:
+
+![alt tag](https://github.com/matheszabi/MiosAssignment/blob/master/screenshots/device_detail.png)
