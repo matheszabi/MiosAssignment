@@ -1,5 +1,5 @@
 # MiosAssignment
-It is / was assignment for a job for Senior Android Developer at Mios, now eZLO for Vera home automations.
+It is / was assignment for a job for **Senior Android Developer** at Mios, now eZLO for Vera home automations.
 
 In the letter the assignment it is:
 
